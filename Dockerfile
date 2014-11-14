@@ -21,7 +21,7 @@ RUN apt-get install -qy python python-cheetah ca-certificates wget unrar
 
 # Install SickBeard 637a214 (2014-11-14)
 RUN mkdir /opt/sickbeard-ita
-RUN wget https://github.com/gborri/Sick-Beard/commit/3a432f43970400891c065c34685920eafaf4ac5a -O /tmp/gborri-Sick-Beard-build-484-5265-g3a432f4.tar.gz
+RUN wget https://github.com/gborri/Sick-Beard/tarball/3a432f43970400891c065c34685920eafaf4ac5a -O /tmp/gborri-Sick-Beard-build-484-5265-g3a432f4.tar.gz
 RUN tar -C /opt/sickbeard-ita -xvf /tmp/gborri-Sick-Beard-build-484-5265-g3a432f4.tar.gz --strip-components 1
 RUN chown nobody:users /opt/sickbeard-ita
 
