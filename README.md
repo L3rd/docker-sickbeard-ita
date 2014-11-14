@@ -18,3 +18,4 @@ If you would like to run the latest updates from the master branch as well as en
 ```
 docker run -d --name="sickbeard-ita" -v /path/to/sickbeard-ita/data:/config -v /path/to/downloads:/downloads -v /path/to/tv:/tv -v /etc/localtime:/etc/localtime:ro -e EDGE=1 -p 8082:8082 L3rd/sickbeard-ita
 ```
+Based on https://github.com/needo37/sickbeard
