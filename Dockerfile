@@ -42,6 +42,6 @@ ADD edge.sh /etc/my_init.d/edge.sh
 RUN chmod +x /etc/my_init.d/edge.sh
 
 # Add Sickbeard to runit
-RUN mkdir /etc/service/sickbeard
-ADD sickbeard.sh /etc/service/sickbeard/run
-RUN chmod +x /etc/service/sickbeard/run
+RUN mkdir /etc/service/sickbeard-ita
+ADD sickbeard.sh /etc/service/sickbeard-ita/run
+RUN chmod +x /etc/service/sickbeard-ita/run
