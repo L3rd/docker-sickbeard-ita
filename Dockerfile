@@ -25,7 +25,7 @@ RUN wget https://github.com/gborri/Sick-Beard/tarball/3a432f43970400891c065c3468
 RUN tar -C /opt/sickbeard-ita -xvf /tmp/gborri-Sick-Beard-build-484-5265-g3a432f4.tar.gz --strip-components 1
 RUN chown nobody:users /opt/sickbeard-ita
 
-EXPOSE 8082
+EXPOSE 8081
 
 # SickBeard Configuration
 VOLUME /config
