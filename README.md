@@ -1,7 +1,7 @@
 Docker-SickBeard-ITA
 ====================
 
-Docker for SickBeard [ITA]
+Docker for SickBeard-ITA [TNTVillage support]
 
 This is a Dockerfile setup for sickbeard using the repo from https://github.com/gborri/Sick-Beard
 
