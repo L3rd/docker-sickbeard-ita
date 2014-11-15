@@ -8,7 +8,7 @@ This is a Dockerfile setup for sickbeard using the repo from https://github.com/
 To run:
 
 ```
-docker run -d --name="sickbeard-ita" -v /path/to/sickbeard-ita/data:/config -v /path/to/downloads:/downloads -v /path/to/tv:/tv -v /etc/localtime:/etc/localtime:ro -p 8082:8082 L3rd/sickbeard-ita
+docker run -d --name="sickbeard-ita" -v /path/to/sickbeard-ita/data:/config -v /path/to/downloads:/downloads -v /path/to/tv:/tv -v /etc/localtime:/etc/localtime:ro -p 8081:8081 l3rd/sickbeard-ita
 ```
 
 Edge
@@ -16,6 +16,6 @@ Edge
 If you would like to run the latest updates from the master branch as well as enable in-app updates run:
 
 ```
-docker run -d --name="sickbeard-ita" -v /path/to/sickbeard-ita/data:/config -v /path/to/downloads:/downloads -v /path/to/tv:/tv -v /etc/localtime:/etc/localtime:ro -e EDGE=1 -p 8082:8082 L3rd/sickbeard-ita
+docker run -d --name="sickbeard-ita" -v /path/to/sickbeard-ita/data:/config -v /path/to/downloads:/downloads -v /path/to/tv:/tv -v /etc/localtime:/etc/localtime:ro -e EDGE=1 -p 8081:8081 l3rd/sickbeard-ita
 ```
 Based on https://github.com/needo37/sickbeard
